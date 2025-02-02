@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>it3836's Tech Hub</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset and basic styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+      color: #fff;
+      text-align: center;
+      padding-bottom: 60px; /* Space for the footer */
+    }
+    /* Header styling with a fade-in animation */
+    header {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 40px 20px;
+      animation: fadeInDown 1s ease-out;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    header h1 {
+      font-size: 3em;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    /* Section styling */
+    section {
+      background: rgba(255, 255, 255, 0.1);
+      margin: 40px auto;
+      padding: 30px;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      animation: fadeIn 2s ease-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    h2 {
+      border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      margin-bottom: 20px;
+    }
+    ul li {
+      margin: 10px 0;
+      font-size: 1.2em;
+    }
+    /* Footer styling */
+    footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      font-size: 0.9em;
+    }
+    /* Link styling */
+    a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome, it3836!</h1>
+    <p>Your Tech Playground</p>
+  </header>
+  
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! I'm it3836, a technology enthusiast passionate about innovative hardware and software solutions.</p>
+    
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>ESP32 Projects</li>
+      <li>Raspberry Pi Experiments</li>
+      <li>ROS (Robot Operating System) Applications</li>
+      <li>PIC Microcontroller Designs</li>
+    </ul>
+    
+    <h2>Professional Skills</h2>
+    <p>
+      Beyond my hobbies, I specialize in network infrastructure and server construction. I enjoy building robust systems that connect and empower technology.
+    </p>
+  </section>
+  
+  <footer>
+    &copy; 2025 it3836. All rights reserved.
+  </footer>
+</body>
+</html>
