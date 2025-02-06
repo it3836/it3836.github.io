@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>パイナップルピザは犯罪だ / Pineapple Pizza is a Crime</title>
+  <title>Pineapple Pizza is a Crime</title>
   <style>
-    /* リセット */
+    /* Reset */
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: 'Arial', sans-serif;
+      font-family: Arial, sans-serif;
       background: #f8f8f8;
       color: #333;
       line-height: 1.6;
@@ -21,24 +21,6 @@
     header h1 {
       font-size: 2.5em;
       margin-bottom: 10px;
-    }
-    nav {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-    nav button {
-      margin: 0 10px;
-      padding: 10px 20px;
-      border: none;
-      background-color: #ff6347; /* トマト色 */
-      color: #fff;
-      font-size: 1em;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    nav button:hover {
-      background-color: #ff4500;
     }
     .banner {
       width: 100%;
@@ -74,12 +56,6 @@
       border-radius: 10px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
-    .language-section {
-      display: none;
-    }
-    .active {
-      display: block;
-    }
     footer {
       text-align: center;
       margin-top: 40px;
@@ -90,61 +66,25 @@
 </head>
 <body>
   <header>
-    <h1>パイナップルピザは犯罪だ / Pineapple Pizza is a Crime</h1>
+    <h1>Pineapple Pizza is a Crime</h1>
   </header>
-  
-  <nav>
-    <button onclick="showLanguage('jp')">日本語</button>
-    <button onclick="showLanguage('en')">English</button>
-  </nav>
   
   <div class="banner">
     <div class="banner-text">NO PINEAPPLE ON PIZZA</div>
   </div>
   
   <div class="content">
-    <!-- 日本語コンテンツ -->
-    <div id="jp" class="language-section">
-      <h2>パイナップルピザの恐怖</h2>
-      <p>
-        あなたはパイナップルがピザに乗るという考え方に耐えられますか？  
-        私たちは、美味しい伝統を守り、正しい味覚を追求するために立ち上がります。  
-        パイナップルはピザの神聖なレシピを汚すものであり、決して許されるべきではありません。
-      </p>
-      <p>
-        もしあなたもパイナップルピザの不条理に怒りを感じるなら、今すぐ仲間に加わりましょう！  
-        このサイトは、パイナップルピザに対する抗議の声を上げ、真の美味しさを取り戻すための闘いの拠点です。
-      </p>
-    </div>
-    
-    <!-- English Content -->
-    <div id="en" class="language-section">
-      <h2>The Horror of Pineapple Pizza</h2>
-      <p>
-        Can you stand the thought of pineapple on your pizza?  
-        We rise to defend the sanctity of traditional pizza and pursue true flavor.  
-        Pineapple desecrates the holy recipe of pizza and should never be tolerated.
-      </p>
-      <p>
-        If you are enraged by the absurdity of pineapple pizza, join us now!  
-        This site serves as a rallying point to protest against pineapple on pizza and reclaim the true taste of pizza.
-      </p>
-    </div>
+    <h2>The Horror of Pineapple Pizza</h2>
+    <p>
+      Can you stand the thought of pineapple on your pizza? We rise to defend the sanctity of traditional pizza and pursue true flavor. Pineapple desecrates the holy recipe of pizza and should never be tolerated.
+    </p>
+    <p>
+      If you are enraged by the absurdity of pineapple pizza, join us now! This site serves as a rallying point to protest against pineapple on pizza and reclaim the true taste of pizza.
+    </p>
   </div>
   
   <footer>
     &copy; 2025 No Pineapple Pizza Movement. All Rights Reserved.
   </footer>
-  
-  <script>
-    function showLanguage(lang) {
-      document.querySelectorAll('.language-section').forEach(section => {
-        section.classList.remove('active');
-      });
-      document.getElementById(lang).classList.add('active');
-    }
-    // 初期表示は日本語に設定
-    showLanguage('jp');
-  </script>
 </body>
 </html>
