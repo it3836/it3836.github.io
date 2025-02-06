@@ -1,90 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pineapple Pizza is a Crime</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pineapple Pizza Revolution</title>
   <style>
-    /* Reset */
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    /* Reset some basic elements */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
     body {
-      font-family: Arial, sans-serif;
-      background: #f8f8f8;
-      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+      color: #2d3436;
       line-height: 1.6;
-      padding: 20px;
+      padding-bottom: 40px;
     }
     header {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 30px 20px;
       text-align: center;
-      padding: 20px 0;
+      border-bottom: 3px solid #fdcb6e;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     header h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
+      font-size: 2.5rem;
+      color: #d63031;
     }
-    .banner {
-      width: 100%;
-      height: 200px;
-      background: url('./chad-montano-MqT0asuoIcU-unsplash.jpg') no-repeat center center/cover;
-      border-radius: 10px;
-      margin-bottom: 20px;
-      position: relative;
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
     }
-    .banner::after {
-      content: "";
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0, 0, 0, 0.5);
-      border-radius: 10px;
-    }
-    .banner-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #fff;
-      font-size: 2em;
-      font-weight: bold;
+    .section {
+      background: #fff;
+      border-radius: 8px;
+      padding: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       text-align: center;
     }
-    .content {
-      max-width: 800px;
-      margin: 0 auto;
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    .section h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #0984e3;
+    }
+    .section p {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+    .button {
+      background: #fdcb6e;
+      color: #2d3436;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+    }
+    .button:hover {
+      background: #e17055;
+      color: #fff;
+    }
+    ol {
+      text-align: left;
+      margin: 20px auto;
+      max-width: 600px;
+      font-size: 1.1rem;
+    }
+    ol li {
+      margin-bottom: 10px;
     }
     footer {
       text-align: center;
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #777;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #636e72;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Pineapple Pizza is a Crime</h1>
+    <h1>Pineapple Pizza Revolution</h1>
   </header>
-  
-  <div class="banner">
-    <div class="banner-text">NO PINEAPPLE ON PIZZA</div>
+  <div class="container">
+    <div class="section" id="welcome">
+      <h2>Hey, Pineapple Pizza Haters!</h2>
+      <p>
+        If you can't handle the sweet and savory truth, then step aside! This is a safe space for true flavor pioneers who know that pineapple on pizza is a taste revolution.
+      </p>
+      <a href="#reasons" class="button">Discover Why</a>
+    </div>
+
+    <div class="section" id="reasons">
+      <h2>5 Reasons Pineapple Pizza is the Best</h2>
+      <ol>
+        <li><strong>Bold Flavors:</strong> A daring mix of tangy pineapple and savory goodness.</li>
+        <li><strong>Courage of Taste:</strong> Only the fearless embrace the tropical twist.</li>
+        <li><strong>Cultural Fusion:</strong> Bridging the gap between classic tradition and innovative flavor.</li>
+        <li><strong>Break the Mold:</strong> Real food rebels defy outdated norms.</li>
+        <li><strong>Global Love:</strong> Celebrated by millions around the world.</li>
+      </ol>
+      <p>
+        Join the revolution and show that true pizza lovers know what real flavor is all about. Haters can keep their plain old slices!
+      </p>
+      <a href="#welcome" class="button">Go Back</a>
+    </div>
   </div>
-  
-  <div class="content">
-    <h2>The Horror of Pineapple Pizza</h2>
-    <p>
-      Can you stand the thought of pineapple on your pizza? We rise to defend the sanctity of traditional pizza and pursue true flavor. Pineapple desecrates the holy recipe of pizza and should never be tolerated.
-    </p>
-    <p>
-      If you are enraged by the absurdity of pineapple pizza, join us now! This site serves as a rallying point to protest against pineapple on pizza and reclaim the true taste of pizza.
-    </p>
-  </div>
-  
   <footer>
-    &copy; 2025 No Pineapple Pizza Movement. All Rights Reserved.
+    &copy; 2025 Pineapple Pizza Revolution. All the flavor, none of the hate.
   </footer>
 </body>
 </html>
